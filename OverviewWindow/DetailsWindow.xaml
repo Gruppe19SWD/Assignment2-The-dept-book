@@ -1,4 +1,4 @@
-﻿<Window x:Class="OverviewWindow.MainWindow"
+﻿<Window x:Class="OverviewWindow.DetailsWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -12,19 +12,19 @@
             HorizontalAlignment="Left" 
             Height="23" Margin="5,10,0,0" 
             TextWrapping="Wrap" 
-            Text="Overblik" VerticalAlignment="Top" Width="120"/>
+            Text="Deptor/Creditor" VerticalAlignment="Top" Width="120"/>
 
         <ListView Margin="5,35,0,33.8" Name="lv_overview" Width="379" HorizontalAlignment="Left">
             <ListView.View>
                 <GridView>
                     <GridView.Columns>
-                        <GridViewColumn Header="Navn" DisplayMemberBinding="{Binding Path=ModelName}"/>
+                        <GridViewColumn Header="Beskrivelse" DisplayMemberBinding="{Binding Path=ModelName}"/>
                         <GridViewColumn Header="Beløb"/>
                     </GridView.Columns>
                 </GridView>
             </ListView.View>
         </ListView>
-        <Button x:Name="btn_details" Content="Vis detaljer" HorizontalAlignment="Left" Margin="309,292,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_details" Content="Tilbage" HorizontalAlignment="Left" Margin="309,292,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
