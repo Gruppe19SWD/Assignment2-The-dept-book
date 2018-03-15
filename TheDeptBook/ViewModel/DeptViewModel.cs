@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using TheDeptBook.Properties;
 
 namespace TheDeptBook.ViewModel
 {
