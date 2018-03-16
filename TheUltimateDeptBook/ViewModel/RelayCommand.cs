@@ -1,17 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;
+using System.Windows.Input;
 
-namespace OverviewWindow.ViewModel
-{
-
-    using System;
-    using System.Diagnostics;
-    using System.Windows.Input;
-
-    namespace BMICalculator.ViewModel
+    namespace TheDeptBook.ViewModel
     {
         // From https://archive.codeplex.com/?p=mvvmfoundation
 
@@ -159,4 +150,3 @@ namespace OverviewWindow.ViewModel
     }
 
 
-}

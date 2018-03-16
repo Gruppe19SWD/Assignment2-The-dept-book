@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace OverviewWindow
+namespace TheDeptBook
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

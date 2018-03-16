@@ -1,4 +1,4 @@
-﻿namespace OverviewWindow.Model
+﻿namespace TheDeptBook.Model
 {
     class Loan
     {

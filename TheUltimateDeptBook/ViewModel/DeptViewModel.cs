@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using OverviewWindow.Properties;
+using TheDeptBook.Properties;
 
-namespace OverviewWindow.ViewModel
+namespace TheDeptBook.ViewModel
 {
     class DeptViewModel : INotifyPropertyChanged
     {
