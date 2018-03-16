@@ -21,10 +21,10 @@ namespace OverviewWindow.Model
             persons.Add(new Person("Udbetaling Danmark", loan3));
             loan3.Add(new Loan("Kontigent", -75));
 
+        }
         public List<Person> GetPersons()
         {
             return persons;
         }
-
     }
 }
